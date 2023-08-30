@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  RickMortyDatabase
+
+  Created by Fabio Augusto Resende on 15/08/23.
+  
+*/
+
+/// Accessibility
+//Sets
+"setsTableViewLabel" = "Lista de sets de cartas";
+"tableViewEmptyMessage" = "Sets não encontrados.";
+"setsCellLabel" = "Set %@";
+"setsCellHint" = "Acessa a lista de cartas do set";
+
+//Cards
+"cardsTableViewLabel" = "Lista de cartas do set %@";
+"cardsCellLabel" = "Nome %@, tipo %@, texto %@";
+"cardsCellHint" = "Acessa os detalhes da carta";
+
+//Card Detail
+"detailCardImageViewLabel" = "Imagem da carta";
+
+/// Texts
+// Base
+"errorTitle" = "Erro";
+"ok" = "OK";
+"unavailable" = "indisponível";
+
+// Sets
+"setsNavigationTitle" = "Sets";
+
+// Cards
+"cardTypeTitle" = "Tipo: ";
+"cardTextTitle" = "Texto: ";
+// Card Detail
+"cardDetailNavigationTitle" = "Detalhes";
+"cardDetailDefaultError" = "Card não encontrado.";
+"cardDetailNameTitle" = "Nome: ";
+"cardDetailFlavorTitle" = "Descrição ilustrativa: ";
+"cardDetailDescriptionTitle" = "Texto: ";
+"cardDetailSetTitle" = "Set: ";
+"cardDetailTypeTitle" = "Tipo: ";
+"cardDetailFactionTitle" = "Facção: ";
+"cardDetailRarityTitle" = "Raridade: ";
+"cardDetailCostTitle" = "Custo: ";
+"cardDetailAttackTitle" = "Ataque: ";
+"cardDetailHealthTitle" = "Saúde: ";

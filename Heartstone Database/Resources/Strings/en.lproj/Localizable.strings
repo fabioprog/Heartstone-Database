@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  RickMortyDatabase
+
+  Created by Fabio Augusto Resende on 15/08/23.
+  
+*/
+
+/// Accessibility
+//Sets
+"setsTableViewLabel" = "Card set list";
+"tableViewEmptyMessage" = "Sets not found.";
+"setsCellLabel" = "Set %@";
+"setsCellHint" = "Accesses the set card list";
+
+//Cards
+"cardsTableViewLabel" = "%@ set card list";
+"cardsCellLabel" = "Name %@, type %@, text %@";
+"cardsCellHint" = "Accesses the card details";
+
+// Card Detail
+"detailCardImageViewLabel" = "Card image";
+
+/// Texts
+// Base
+"errorTitle" = "Error";
+"ok" = "OK";
+"unavailable" = "unavailable";
+
+// Sets
+"setsNavigationTitle" = "Sets";
+
+// Cards
+"cardTypeTitle" = "Type: ";
+"cardTextTitle" = "Text: ";
+// Card Detail
+"cardDetailNavigationTitle" = "Detail";
+"cardDetailDefaultError" = "Card not found.";
+"cardDetailNameTitle" = "Name: ";
+"cardDetailFlavorTitle" = "Flavor: ";
+"cardDetailDescriptionTitle" = "Text: ";
+"cardDetailSetTitle" = "Set: ";
+"cardDetailTypeTitle" = "Type: ";
+"cardDetailFactionTitle" = "Faction: ";
+"cardDetailRarityTitle" = "Rarity: ";
+"cardDetailCostTitle" = "Cost: ";
+"cardDetailAttackTitle" = "Attack: ";
+"cardDetailHealthTitle" = "Health: ";

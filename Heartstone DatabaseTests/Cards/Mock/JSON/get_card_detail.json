@@ -1,0 +1,3 @@
+[
+{"cardId":"HERO_11bpt","dbfId":78164,"name":"Frail Ghoul","cardSet":"Basic","type":"Minion","rarity":"Free","cost":1,"attack":1,"health":1,"text":"[x]<b>Charge</b>\nAt the end of your turn,\nthis minion dies.","artist":"Vlad Botos","race":"Undead","playerClass":"Death Knight","img":"https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66162c74e9d6ad6e8d299202dc0cd4087b8bd7caafb281b4d835fd1052ca33ef.png","locale":"enUS","mechanics":[{"name":"Charge"}]}
+]
