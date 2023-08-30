@@ -8,14 +8,14 @@
 import Foundation
 
 protocol InfoAPIProtocol {
-    func getInfo() async throws -> Info
+    func getInfo() async throws -> InfoResponse
 }
 
 class InfoClient: InfoAPIProtocol {
     
-    func getInfo() async throws -> Info {
+    func getInfo() async throws -> InfoResponse {
         let router = InfoAPIRoute.getInfo.router
-        let response: Info = try await APIRequest.request(apiRouter: router)
+        let response: InfoResponse = try await APIRequest.request(apiRouter: router)
         return response
     }
 }

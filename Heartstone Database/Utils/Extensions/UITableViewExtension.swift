@@ -11,7 +11,7 @@ extension UITableView {
 
     func setEmptyMessage(_ message: String) {
         
-        let messageLabel = UILabel(frame: CGRect(x: center.x, y: center.y, width: bounds.size.width, height: bounds.size.height))
+    let messageLabel = UILabel(frame: CGRect(x: center.x, y: center.y, width: bounds.size.width, height: bounds.size.height))
         messageLabel.text = message
         messageLabel.textColor = ColorAsset.primaryText.color
         messageLabel.numberOfLines = 0

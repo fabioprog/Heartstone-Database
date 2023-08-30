@@ -8,7 +8,7 @@
 import Foundation
 
 protocol CardSetsPresenterProtocol: AnyObject {
-    func didReceive(info: Info)
+    func didReceive(info: InfoResponse)
     func didReceive(error: Error)
 }
 
@@ -22,9 +22,9 @@ class CardSetsPresenter {
 }
 
 extension CardSetsPresenter: CardSetsPresenterProtocol {
-    func didReceive(info: Info) {
+    func didReceive(info: InfoResponse) {
         DispatchQueue.main.async {
-            self.controller?.didReceive(sets: [])
+            self.controller?.didReceive(sets: info.sets ?? [])
         }
     }
     

@@ -43,7 +43,7 @@
 		E5E138B52A9D786B004730E6 /* InfoAPIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138B42A9D786B004730E6 /* InfoAPIRoute.swift */; };
 		E5E138B72A9D7AA4004730E6 /* CardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138B62A9D7AA4004730E6 /* CardClient.swift */; };
 		E5E138B92A9D7AAA004730E6 /* InfoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138B82A9D7AAA004730E6 /* InfoClient.swift */; };
-		E5E138BB2A9D8008004730E6 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138BA2A9D8008004730E6 /* Info.swift */; };
+		E5E138BB2A9D8008004730E6 /* InfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138BA2A9D8008004730E6 /* InfoResponse.swift */; };
 		E5E138C32A9D87AE004730E6 /* CardSetsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138BD2A9D817E004730E6 /* CardSetsTableViewCell.swift */; };
 		E5E138C42A9D87AE004730E6 /* CardSetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138C02A9D817E004730E6 /* CardSetsView.swift */; };
 		E5E138C52A9D87AE004730E6 /* CardSetsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E138BE2A9D817E004730E6 /* CardSetsRouter.swift */; };
@@ -137,7 +137,7 @@
 		E5E138B42A9D786B004730E6 /* InfoAPIRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAPIRoute.swift; sourceTree = "<group>"; };
 		E5E138B62A9D7AA4004730E6 /* CardClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClient.swift; sourceTree = "<group>"; };
 		E5E138B82A9D7AAA004730E6 /* InfoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoClient.swift; sourceTree = "<group>"; };
-		E5E138BA2A9D8008004730E6 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		E5E138BA2A9D8008004730E6 /* InfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoResponse.swift; sourceTree = "<group>"; };
 		E5E138BD2A9D817E004730E6 /* CardSetsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetsTableViewCell.swift; sourceTree = "<group>"; };
 		E5E138BE2A9D817E004730E6 /* CardSetsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetsRouter.swift; sourceTree = "<group>"; };
 		E5E138BF2A9D817E004730E6 /* CardSetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetsViewController.swift; sourceTree = "<group>"; };
@@ -335,7 +335,7 @@
 		E5E138642A9D5037004730E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E5E138BA2A9D8008004730E6 /* Info.swift */,
+				E5E138BA2A9D8008004730E6 /* InfoResponse.swift */,
 				E5E138692A9D512F004730E6 /* Cards */,
 			);
 			path = Model;
@@ -688,7 +688,7 @@
 				E5E138CB2A9D87B7004730E6 /* CardDetailPresenter.swift in Sources */,
 				E5E138CC2A9D87B7004730E6 /* CardDetailRouter.swift in Sources */,
 				E5E138942A9D5515004730E6 /* DataCache.swift in Sources */,
-				E5E138BB2A9D8008004730E6 /* Info.swift in Sources */,
+				E5E138BB2A9D8008004730E6 /* InfoResponse.swift in Sources */,
 				E5E138732A9D5260004730E6 /* ColorAsset.swift in Sources */,
 				E5E138C32A9D87AE004730E6 /* CardSetsTableViewCell.swift in Sources */,
 				E5E1388C2A9D5469004730E6 /* StringExtension.swift in Sources */,
